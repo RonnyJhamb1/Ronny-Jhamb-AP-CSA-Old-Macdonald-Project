@@ -1,22 +1,20 @@
-public class Animal {
+public interface Animal {
 
 
 
     
-public void getSound() {
+public void getSound();
 
 
-System.out.println("Animal makes a sound");
 
 
-}
-
-public void getType(){
 
 
-System.out.println("Animal Type");
+
+public void getType();
 
 
-}
+
+}\
 
 }

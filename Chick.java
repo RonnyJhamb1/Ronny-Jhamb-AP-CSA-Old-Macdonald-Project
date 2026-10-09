@@ -1,15 +1,26 @@
 public class Chick extends Animal {
-    
-public void getSound() {
+     private String sound;
+    private String type;
+   
+    public String getSound(){
 
-System.out.println("Chick goes cluck");
+return (sound);
 
+    }
+
+public String getType(){
+
+return (type);
+
+
+
+public Chick (String sound, String type) {
+
+this.sound = sound;
+this.type = type;
 
 }
 
-public void getType(){
-
-System.out.print("Chick");
 
 
 }
