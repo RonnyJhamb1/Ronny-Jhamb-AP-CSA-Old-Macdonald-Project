@@ -1,23 +1,19 @@
-public class Pig extends Animal {
-    
+public class Pig implements Animal {
 
-public void getSound() {
+    private String type;
+    private String sound;
 
-System.out.println("Pig goes oink");
+    public Pig(String type, String sound) {
+        this.type = type;
+        this.sound = sound;
+    }
 
+    public String getSound() {
+        return sound;
+    }
 
-}
-
-public void getType(){
-
-System.out.print("PIg");
-
-
-
-
-
-
-}
-
+    public String getType() {
+        return type;
+    }
 
 }

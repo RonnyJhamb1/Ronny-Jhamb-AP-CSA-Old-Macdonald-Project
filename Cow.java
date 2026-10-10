@@ -1,30 +1,19 @@
-public class Cow extends Animal{
+public class Cow implements Animal {
 
-
-    private String sound;
     private String type;
-   
-    public String getSound(){
+    private String sound;
 
-return (sound);
-
+    public Cow(String type, String sound) {
+        this.type = type;
+        this.sound = sound;
     }
 
-public String getType(){
+    public String getSound() {
+        return sound;
+    }
 
-return (type);
-
-
-
-public Cow (String sound, String type) {
-
-this.sound = sound;
-this.type = type;
-
-}
-
-
-
-}
+    public String getType() {
+        return type;
+    }
 
 }
