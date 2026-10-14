@@ -1,3 +1,6 @@
+//Array given by Mrs Ramsey-Rudledge 
+
+
 public class Farm {
     private Animal [] a = new Animal [3];
     Farm () {
